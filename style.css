@@ -1,0 +1,94 @@
+body{
+	background-color: aqua;
+    line-height: 15px;
+
+}
+.page{
+	width: 780px;
+	margin: auto;
+	background-color: #999999;
+	border-radius: 16px;
+	
+	
+}
+
+.donnephoto{
+    height: 207px;
+}
+
+.donne{
+	float: left;
+	margin: 20px;
+}
+.photo{
+	float: right;
+	margin: 20px;
+
+}
+
+.partie{
+	margin-bottom: 80px;
+	text-align: justify;
+	margin: 20px;
+}
+
+.partie_gauche{
+	float: left;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.partie_droite{
+	margin-left: 200px;
+	margin-top: 20px;
+}
+
+h2{
+	font-size: 20px;
+	color: #8E44AD;
+	border-bottom: 3px solid #8E44AD; 
+	text-align: center; 
+	border-radius: 200%;  
+}
+
+.titre{
+	font-weight: normal;
+	font-style: italic;
+	font-size: 15px;
+}
+
+#forma_gauche p{
+	margin-bottom: 15px;
+}
+
+#exp_gauche p{
+	margin-bottom: 40px;
+}
+
+#lang_gauche p{
+	margin-bottom: 15px;
+}
+
+
+
+
+@media all and (max-width: 600px){
+	.page{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
